@@ -1,0 +1,14 @@
+This is a code for figuring out if two numbers are greater than, equal to, or less than. 
+
+numbe = input('Enter a number?\n')
+x = float(numbe)
+
+numbe2 = input('Enter a second number?\n')
+y = float(numbe2)
+
+if x < y:
+    print(str(x) + ' is less than ' + str(y))
+elif x > y:
+    print(str(x) + ' is greater than ' + str(y))
+else:
+    print(str(x) + ' is equal to ' + str(y))
